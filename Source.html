@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h1 id="greeting">Welcome to My Portfolio</h1>
+
+<h2>About Me</h2>
+<p data-info="intro">My name is Alexander Poplawski. I am a senior at Rowan University, originally from Berlin, CT. I am a computer science student that is also passionate about fitness and health!</p>
+
+<h3>Hobbies</h3>
+<ul>
+    <li data-skill="hobby1">Rock climbing</li>
+    <li data-skill="hobby2">Weight lifting</li>
+    <li data-skill="hobby3">Playing video games</li>
+    <li data-skill="hobby4">Playing guitar</li>
+    <li data-skill="hobby5">Watching sports</li>
+</ul>
+
+<img src="rock-climbing.jpg" alt="Rock Climbing" id="rockImg">
+<img src="video-games.jpg" alt="Playing Video Games" id="videoImg">
+<img src="lifting-weights.jpg" alt="Weight Lifting" id="weightImg">
+
+<h3>Skills</h3>
+<ul>
+    <li>Proficient in C++, Java, and Python</li>
+    <li>Proficient in Microsoft Office Suite</li>
+    <li>Expert in Adobe Creative Cloud</li>
+    <li>5 years of customer oriented work</li>
+    <li>Fluent in Polish and English</li>
+</ul>
+
+<h3>Relevant Courses</h3>
+<ul>
+    <li>Intro to Digital Systems</li>
+    <li>Intro to Electricity and Magnetism</li>
+    <li>Calculus I & II</li>
+    <li>Discrete Structures</li>
+    <li>Object Oriented Programming</li>
+    <li>Web Development</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Applied Database Systems</li>
+</ul>
+
+<h3>Education</h3>
+<img src="rowan-logo.svg" alt="Rowan University" id="rowanImg">
+<table>
+    <tr>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Senior at Rowan University</td>
+    </tr>
+    <tr>
+        <td>Graduating 2025</td>
+    </tr>
+    <tr>
+        <td>Bachelor of Computer Science</td>
+    </tr>
+</table>
+
+<h3>Projects</h3>
+<h4>Smarter Dining Hall Population Detector - Intro to Digital Systems</h4>
+<ul>
+    <li>Created a prototype sensor that detects when a person enters and exits the dining hall and keeps track of the population on an online server.</li>
+    <li>Designed and printed a PCB for the sensor.</li>
+    <li>Programmed the ultrasonic sensor using Python.</li>
+</ul>
+
+<h4>FPGA Dinosaur Game - Intro to Digital Systems</h4>
+<ul>
+    <li>Designed and programmed a state machine that mimics the Chrome Dinosaur Game on an Intel FPGA.</li>
+    <li>Used Quartus software to program the FPGA using Verilog HDL.</li>
+    <li>Simulated the state machine using ModelSim simulation software for debugging purposes.</li>
+</ul>
+
+<h3>Art Projects</h3>
+<p>In my free time, I also like to design flyers for local music shows happening in my area. I am proficient with the Adobe Creative Cloud Suite.</p>
+
+<div class="gallery">
+    <img src="flyer.png" alt="Flyer for Rowan ALT" id="artImg1">
+    <img src="RivieraBuickFlyer_2.png" alt="Flyer for Riviera" id="artImg2">
+    <img src="rivieraflyer.png" alt="Flyer for Riviera" id="artImg3">
+</div>
+
+
+<button onclick="showMore()">Learn More</button>
+<p id="extraContent" style="display: none;">For any inquiries contact poplaw96@students.rowan.edu!</p>
+
+</body>
+</html>
